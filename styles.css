@@ -32,18 +32,9 @@ background-image: url("images/tom3.png");
 background-image: url("images/tom4.png");
 }
 
-.k {
+.g {
 background-image: url("images/crash.png");
 }
-
-.o {
-background-image: url("images/kick.png");
-}
-
-.p {
-background-image: url("images/snare.png");
-}
-
 .set {
   margin: 10% auto;
 }
