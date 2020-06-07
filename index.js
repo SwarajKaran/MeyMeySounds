@@ -1,6 +1,6 @@
 // Detecting Button Press
 
-for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
+for (var i = 0; i < document.querySelectorAll(".meme").length; i++) {
 
   document.querySelectorAll("button")[i].addEventListener("click", function() {
 
@@ -25,24 +25,24 @@ document.addEventListener("keydown", function(event) {
 function makeSound(key) {
   switch (key) {
     case "a":
-      var tom1 = new Audio("sounds/MCPH.mp3");
-      tom1.play();
+      var mcph = new Audio("sounds/MCPH.mp3");
+      mcph.play();
       break;
     case "s":
-      var tom2 = new Audio("sounds/GORM.mp3");
-      tom2.play();
+      var gorm = new Audio("sounds/GORM.mp3");
+      gorm.play();
       break;
     case "d":
-      var tom3 = new Audio("sounds/PFMN.mp3");
-      tom3.play();
+      var pfmn = new Audio("sounds/PFMN.mp3");
+      pfmn.play();
       break;
     case "f":
-      var tom4 = new Audio("sounds/BABU.mp3");
-      tom4.play();
+      var babu = new Audio("sounds/BABU.mp3");
+      babu.play();
       break;
     case "g":
-      var crash = new Audio("sounds/MMCH.mp3");
-      crash.play();
+      var mmch = new Audio("sounds/MMCH.mp3");
+      mmch.play();
       break;
     default:
       console.log(buttonInnerHTML);
