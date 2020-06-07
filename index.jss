@@ -24,23 +24,23 @@ document.addEventListener("keydown", function(event) {
 
 function makeSound(key) {
   switch (key) {
-    case "MCPH":
+    case "a":
       var mcph = new Audio("sounds/MCPH.mp3");
       mcph.play();
       break;
-    case "GORM":
+    case "s":
       var gorm = new Audio("sounds/GORM.mp3");
       gorm.play();
       break;
-    case "PFMN":
+    case "d":
       var pfmn = new Audio("sounds/PFMN.mp3");
       pfmn.play();
       break;
-    case "BABU":
+    case "f":
       var babu = new Audio("sounds/BABU.mp3");
       babu.play();
       break;
-    case "MMCH":
+    case "g":
       var mmch = new Audio("sounds/MMCH.mp3");
       mmch.play();
       break;
